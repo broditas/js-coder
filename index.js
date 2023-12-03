@@ -18,7 +18,8 @@ do{
         continuar = prompt("¿quiere agregar otro producto al carrito?(si/no)").toLowerCase();
     }
     else if (ZAPAS[NUMERO].stock == false){
-        alert("este producto no esta en stock por favor ingrese otro");
+        alert("este producto no esta en stock");
+        continuar = prompt("¿quiere agregar otro producto al carrito?(si/no)").toLowerCase();
     }
     else{
         alert("ingresa un codigo valido");
